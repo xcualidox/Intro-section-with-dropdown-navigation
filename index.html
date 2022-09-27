@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Intro section</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <input type="checkbox" id="trigger" aria-hidden="true">
+        <div class="overlay" aria-hidden="true"></div>
+        <header class="navbar">
+            <div class="container flex">
+                <img src="/images/logo.svg" alt="website logo" class="logo">
+            <nav class="flex">
+                <ul class="flex">
+                    <li class="drop-down-menu" id="features"><a href="#" class="hover-stay">Features <span><img src="/images/icon-arrow-down.svg" alt="arrow icon" class="arrow"></span></a>
+                        <ul class="drop right">
+                            <li class="flex"><img src="/images/icon-todo.svg" alt=""><a href="#">Todo List</a></li>
+                            <li class="flex"><img src="/images/icon-calendar.svg" alt=""><a href="#">Calendar</a></li>
+                            <li class="flex"><img src="/images/icon-reminders.svg" alt=""><a href="#">Reminders</a></li>
+                            <li class="flex"><img src="images/icon-planning.svg" alt=""><a href="#">Planning</a></li>
+                        </ul>
+                    </li>
+                    <li class="drop-down-menu" id="company"><a href="#" class="hover-stay">Company <span><img src="/images/icon-arrow-down.svg" alt="arrow icon"></span></a>
+                        <ul class="drop left">
+                            <li class="flex"><a href="#">History</a></li>
+                            <li class="flex"><a href="#">Our team</a></li>
+                            <li class="flex"><a href="#">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">About</a></li>
+                    
+                </ul>
+                <div class="login" aria-labelledby="login section">
+                    <ul class="flex">
+                        <li><a href="#">Login</a></li>
+                        <li ><a href="#" class="btn">Register</a></li>
+                    </ul>
+                </div>
+                <label for="trigger" class="close">
+                    <img src="images/icon-close-menu.svg" alt="close menu icon">
+                </label>
+            </nav>
+            <label for="trigger" class="open">
+                <img src="images/icon-menu.svg" alt="open menu icon">
+            </label>
+            </div>
+            
+        </header>
+        <main>
+            <div class="container">
+                <section class="showcase">
+                    <h1>Make remote work</h1>
+                    <p>Get your team in sync, no matter your location. Streamline processes, 
+                        create team rituals, and watch productivity soar.</p>
+                    <a href="#" class="btn">Learn more</a>
+                </section>
+                <section class="hero">
+                    <img src="images/image-hero-desktop.png" alt="hero image desktop">
+                    <img src="images/image-hero-mobile.png" alt="hero image mobile">
+                </section>
+                <section class="clients flex">
+                    <img src="images/client-databiz.svg" alt="">
+                    <img src="images/client-audiophile.svg" alt="">
+                    <img src="images/client-meet.svg" alt="">
+                    <img src="images/client-maker.svg" alt="">
+                </section>
+            </div>
+           
+        </main>
+        <script src="js/js.js"></script>
+        <footer class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://github.com/xcualidox">Alex Cruz</a>.
+        </footer>
+    </body>
+</html>
